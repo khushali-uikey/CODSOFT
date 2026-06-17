@@ -1,0 +1,156 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== BODY ===== */
+body{
+    background:#0f0f14;
+    color:white;
+}
+
+/* ===== HEADER ===== */
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:20px 80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0f0f14;
+    z-index:100;
+}
+
+header h2{
+    color:#8b5cf6;
+}
+
+nav a{
+    color:white;
+    margin-left:30px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#8b5cf6;
+}
+
+/* ===== SECTIONS ===== */
+section{
+    min-height:100vh;
+    padding:120px 80px;
+}
+
+/* ===== HOME ===== */
+.home{
+    display:flex;
+    align-items:center;
+    gap:80px;
+}
+
+.home img{
+    width:280px;
+    border-radius:20px;
+    box-shadow:0 0 30px #8b5cf6;
+}
+
+.home h1{
+    font-size:40px;
+}
+
+.highlight{
+    color:#8b5cf6;
+}
+
+.typing{
+    font-size:28px;
+    margin-top:10px;
+}
+
+/* ===== ABOUT ===== */
+.about p{
+    max-width:700px;
+    line-height:1.8;
+    color:#d1d5db;
+}
+
+/* ===== PROJECTS ===== */
+.project-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#1a1a24;
+    padding:30px;
+    border-radius:20px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px #8b5cf6;
+}
+
+/* ===== SKILLS ===== */
+.skills-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:30px;
+}
+
+.skill{
+    background:#1a1a24;
+    padding:25px;
+    text-align:center;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.skill:hover{
+    box-shadow:0 0 20px #8b5cf6;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:#0a0a10;
+    padding:40px;
+    text-align:center;
+}
+
+.social a{
+    margin:0 15px;
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+}
+
+.social a:hover{
+    color:#8b5cf6;
+}
+
+footer p{
+    margin-top:20px;
+    color:#9ca3af;
+}
+/*resume button */
+.resume-btn{
+    background-color: #8b5cf6;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.resume-btn:hover{
+    transform: scale(1.05);
+}

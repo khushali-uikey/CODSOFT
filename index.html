@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h2>Khushali</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+    </nav>
+</header>
+
+<section class="home" id="home">
+    <img src="photo.jpg" alt="My Photo">
+    <div>
+        <h1>Hi, I'm <span class="highlight">Khushali Uikey</span></h1>
+        <div class="typing">I'm <span class="highlight" id="text"></span></div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2 class="highlight">About Me</h2><br>
+    <p>
+        I have completed my diploma in Computer Engineering and currently pursuing Artificial Intelligence and Machine Learning. I have a strong interest in coding and enjoy building practical projects that help me develop problem-solving and techinical skills.<br>
+       <br> My primary area of interest include Game Development, where I focus on creating interactive and user-oriented experiences. alongside this, I explore creative 3D design and animation using Blender as a hobby, allowing me to blend creativity with technology.
+    </p>
+    <section>
+  <a href="resume.pdf" download class="resume-btn">
+    Download Resume
+</a>
+</section>
+</section>
+
+<section id="projects">
+    <h2 class="highlight">Projects</h2><br>
+    <div class="project-box">
+        <div class="card" onclick="window.open('#')">Portfolio Website</div>
+        <div class="card" onclick="window.open('https://Leave.nitpoly.com')">Leave Management System</div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="highlight">Skills</h2><br>
+    <div class="skills-box">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Blender (Beginner)</div>
+    </div>
+</section>
+
+<footer>
+    <div class="social">
+        <a href="https://www.instagram.com/hyiapiness_irenic" target="_blank">Instagram</a>
+        <a href="https://youtube.com/@khushi.047" target="_blank">YouTube</a>
+        <a href="https://www.linkedin.com/in/khushali-uikey-001753323" target="_blank">LinkedIn</a>
+        <a href="https://github.com/khushali-uikey" target="_blank">GitHub</a>
+    </div>
+    <p>© 2025 Khushali. All Rights Reserved.</p>
+</footer>
+
+<script>
+const words = ["Developer", "AI/ML Student", "Beginner Aspiring 3D Artist"];
+
+let i = 0;
+setInterval(() => {
+    document.getElementById("text").innerText = words[i];
+    i = (i + 1) % words.length;
+}, 2000);
+</script>
+
+</body>
