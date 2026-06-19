@@ -1,0 +1,219 @@
+/*header */
+nav a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-left: 30px;
+}
+nav{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    justify-content: space-between;
+
+}
+nav h1{
+    color: white;
+    margin-right: auto;
+}
+nav a:hover{
+    color: rgb(32, 55, 93);
+}
+/*background of body*/
+section{
+    min-height:100vh;
+    padding:120px 80px;
+}
+button{
+    size: 40px;
+}
+/* card*/
+.card{
+    color: white;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    padding:30px;
+    border-radius:20px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px #0c1f36;
+}
+/* games card*/
+
+.games{
+    color: black;
+}
+.game-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:300px;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    color: white;
+    background:linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    padding:20px;
+    width: 500px;
+    border-radius:15px;
+    margin: 20px auto;
+ 
+}
+.game img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.game:hover{
+     transform:translateY(-10px);
+    box-shadow:0 0 25px #0c1f36;
+}
+.details h2{
+    font-size: 30px;
+}
+.details p{
+    margin: 10px 0;
+}
+button{
+    padding: 10px 20px;
+    background-color: cyan;
+    border: none;
+    border-radius: 8px;
+}
+/*features */
+.info{
+    color: black;
+}
+.feature-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:30px;
+}
+.feature{
+    display: flex;
+    background:linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    align-items: center;
+
+}
+.feature:hover{
+     transform:translateY(-10px);
+    box-shadow:0 0 25px #0c1f36;
+}
+/* tournament */
+.tournament-details{
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+ background:linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.tournament-details img{
+    padding:20px;
+    width: 400px;
+    border-radius: 15px;
+}
+.tourn {
+    color: black;
+}
+.tournament-box{
+    padding: 20px;
+     display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+}
+.tournament-details button{
+    width: 180px;
+    padding: 12px;
+    background-color: cyan;
+    border: none;
+    border-radius: 8px;
+}
+.tournament-details:hover{
+   
+     transform:translateY(-10px);
+    box-shadow:0 0 25px #0c1f36;
+
+}
+/*community*/
+#community{
+    padding: 60px;
+    text-align: center;
+}
+#community h1{
+    font-size: 40px;
+    color: black;
+}
+.community-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.box{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    padding: 30px;
+    width: 200px;
+    border-radius: 15px;
+}
+.box h2{
+    font-size: 35px;
+    color: cyan;
+}
+.box p{
+    margin-top: 10px;
+    color: white;
+}
+.box:hover{
+transform:translateY(-10px);
+    box-shadow:0 0 25px #0c1f36;
+}
+/*contact*/
+.contact{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border-radius: 20px;
+    margin: 50px;
+}
+.contact h1{
+    font-size: 40px;
+    color: white;
+}
+.contact p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.contact button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: cyan;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.contact:hover{
+transform:translateY(-10px);
+    box-shadow:0 0 25px #0c1f36;
+}
+/*footer*/
+footer{
+    color: white;
+    size: 20px;
+ background:linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    padding:40px;
+    text-align:center;
+}
